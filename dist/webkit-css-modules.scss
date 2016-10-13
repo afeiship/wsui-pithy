@@ -1,0 +1,402 @@
+/*align Start*/
+.vat {
+  &,
+  &_ > * {
+    vertical-align: top;
+  }
+}
+
+.vab {
+  &,
+  &_ > * {
+    vertical-align: bottom;
+  }
+}
+
+.vam {
+  &,
+  &_ > * {
+    vertical-align: middle;
+  }
+}
+/*align End*/
+
+/*background Start*/
+.bgn{
+  background: none;
+}
+/*background End*/
+
+/*border Start*/
+.bdn{
+  border:none;
+}
+/*border End*/
+
+/**box-sizing Start**/
+.bs-b{
+  box-sizing: border-box;
+}
+.bs-c{
+  box-sizing:content-box;
+}
+/**box-sizing  End**/
+
+/**clearfix Start**/
+/**
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ * 3. Reference:http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.clfix:before,
+.clfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clfix:after {
+  clear: both;
+}
+
+
+/*normal way to clearfix*/
+//http://snipplr.com/view/43074/clearfix-using-zerowidthspace-character/
+.clearfix:after {
+  clear: both;
+  content: "\200B";
+  display: block;
+  height: 0;
+}
+
+
+/**clearfix  End**/
+
+/**display Start**/
+
+.db {
+  &,
+  &_ > * {
+    display: block;
+  }
+}
+
+.di {
+  display: inline;
+}
+
+.dn {
+  display: none;
+}
+
+.dib {
+  &,
+  &_ > * {
+    display: inline-block;
+  }
+}
+
+.dtb {
+  display: table;
+}
+
+.dtbc {
+  display: table-cell;
+}
+
+/**display  End**/
+
+/**float Start**/
+.l {
+  &,
+  &_ > * {
+    float: left;
+  }
+}
+
+.r {
+  &,
+  &_ > * {
+    float: right;
+  }
+}
+
+.lfix_ {
+  @extend .clfix;
+  & > * {
+    float: left;
+  }
+}
+.rfix_ {
+  @extend .clfix;
+  & > * {
+    float: right;
+  }
+}
+
+/**float  End**/
+
+/*font-size Start*/
+.f0{
+  font-size:0;
+}
+/*font-size End*/
+
+/**margin Start**/
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.m0a {
+  margin: 0 auto;
+}
+/**margin  End**/
+
+/*padding Start*/
+.p0{
+  padding:0;
+}
+/*padding End*/
+
+/**position Start**/
+.rel {
+  &,
+  &_ > * {
+    position: relative;
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+.abs {
+  &,
+  &_ > * {
+    position: absolute;
+  }
+}
+
+
+.trbl0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.lr0{
+  left:0;
+  right:0;
+}
+.tb0{
+  top:0;
+  bottom:0;
+}
+.t0 {
+  top: 0;
+}
+
+.r0 {
+  right: 0;
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
+.t5 {
+  top: 50%;
+}
+
+.r5 {
+  right: 50%;
+}
+
+.b5 {
+  bottom: 50%;
+}
+
+.l5 {
+  left: 50%;
+}
+
+.t100 {
+  top: 100%;
+}
+
+.r100 {
+  right: 100%;
+}
+
+.b100 {
+  bottom: 100%;
+}
+
+.l100 {
+  left: 100%;
+}
+
+.z1{
+  z-index:1;
+}
+.z2{
+  z-index:2;
+}
+.z3{
+  z-index:3;
+}
+
+/**position  End**/
+
+/**shadow-depth Start**/
+
+.shadow-1 {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-2 {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-3 {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19);
+}
+
+.shadow-4 {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-5 {
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-6 {
+  box-shadow: 0 19px 60px rgba(0, 0, 0, 0.30);
+}
+
+.shadow-in-1 {
+  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-in-2 {
+  box-shadow:inset 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-in-3 {
+  box-shadow:inset 0 10px 30px rgba(0, 0, 0, 0.19);
+}
+
+.shadow-in-4 {
+  box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-in-5 {
+  box-shadow:inset 0 14px 45px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-in-6 {
+  box-shadow:inset 0 19px 60px rgba(0, 0, 0, 0.30);
+}
+
+/**shadow-depth  End**/
+
+.circle {
+  border-radius: 50%;
+}
+
+.round {
+  border-radius: 1000px;
+}
+
+.radius-top-0 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.radius-right-0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-bottom-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-left-0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/**status Start**/
+.disabled{
+  pointer-events: none;
+  opacity: 0.5;
+  user-select: none;
+}
+[hidden],
+.hidden{
+  display: none!important;
+}
+/**status  End**/
+
+/**text-decoration Start**/
+.tdn{
+  text-decoration: none;
+}
+.tdu{
+  text-decoration: underline;
+}
+.tdlh{
+  text-decoration: line-through;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/**text-decoration  End**/
+
+/**transparent Start**/
+.tran-text{
+  color:transparent;
+}
+.tran-bg{
+  background: transparent;
+}
+.vis-v{
+  visibility: visible;
+}
+.vis-h{
+  visibility: hidden;
+}
+/**transparent  End**/

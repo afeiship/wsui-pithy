@@ -1,0 +1,27 @@
+{
+  "name": "webkit-css-modules",
+  "description": "Webkit css modules.",
+  "main": [
+    "dist/webkit-css-modules.scss",
+    "dist/webkit-css-modules.css"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-css-modules",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

@@ -1,0 +1,31 @@
+/**text-decoration Start**/
+.tdn{
+  text-decoration: none;
+}
+.tdu{
+  text-decoration: underline;
+}
+.tdlh{
+  text-decoration: line-through;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/**text-decoration  End**/
