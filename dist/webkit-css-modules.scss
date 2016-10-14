@@ -78,7 +78,6 @@
 /**clearfix  End**/
 
 /**display Start**/
-
 .db {
   &,
   &_ > * {
@@ -106,9 +105,11 @@
 }
 
 .dtbc {
-  display: table-cell;
+  &,
+  &_ > * {
+    display: table-cell;
+  }
 }
-
 /**display  End**/
 
 /**float Start**/
@@ -132,9 +133,20 @@
     float: left;
   }
 }
+
 .rfix_ {
   @extend .clfix;
   & > * {
+    float: right;
+  }
+}
+
+.lrfix_{
+  @extend .clfix;
+  > *:first-child{
+    float: left;
+  }
+  > *:last-child{
     float: right;
   }
 }
@@ -187,21 +199,6 @@
   }
 }
 
-
-.trbl0 {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.lr0{
-  left:0;
-  right:0;
-}
-.tb0{
-  top:0;
-  bottom:0;
-}
 .t0 {
   top: 0;
 }
@@ -218,6 +215,20 @@
   left: 0;
 }
 
+.trbl0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.lr0{
+  left:0;
+  right:0;
+}
+.tb0{
+  top:0;
+  bottom:0;
+}
 .t5 {
   top: 50%;
 }
@@ -384,6 +395,14 @@
   overflow: hidden;
 }
 
+.b{
+  font-weight: bold;
+}
+
+.n{
+  font-weight: normal;
+  font-style: normal;
+}
 /**text-decoration  End**/
 
 /**transparent Start**/

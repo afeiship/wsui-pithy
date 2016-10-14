@@ -49,17 +49,18 @@
  *    `:before` to contain the top-margins of child elements.
  * 3. Reference:http://nicolasgallagher.com/micro-clearfix-hack/
  */
-.clfix:before, .lfix_:before, .rfix_:before,
+.clfix:before, .lfix_:before, .rfix_:before, .lrfix_:before,
 .clfix:after,
 .lfix_:after,
-.rfix_:after {
+.rfix_:after,
+.lrfix_:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.clfix:after, .lfix_:after, .rfix_:after {
+.clfix:after, .lfix_:after, .rfix_:after, .lrfix_:after {
   clear: both;
 }
 
@@ -95,7 +96,8 @@
   display: table;
 }
 
-.dtbc {
+.dtbc,
+.dtbc_ > * {
   display: table-cell;
 }
 
@@ -116,6 +118,14 @@
 }
 
 .rfix_ > * {
+  float: right;
+}
+
+.lrfix_ > *:first-child {
+  float: left;
+}
+
+.lrfix_ > *:last-child {
   float: right;
 }
 
@@ -162,6 +172,22 @@
   position: absolute;
 }
 
+.t0 {
+  top: 0;
+}
+
+.r0 {
+  right: 0;
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
 .trbl0 {
   top: 0;
   right: 0;
@@ -177,22 +203,6 @@
 .tb0 {
   top: 0;
   bottom: 0;
-}
-
-.t0 {
-  top: 0;
-}
-
-.r0 {
-  right: 0;
-}
-
-.b0 {
-  bottom: 0;
-}
-
-.l0 {
-  left: 0;
 }
 
 .t5 {
@@ -361,6 +371,15 @@
   text-overflow: ellipsis;
   vertical-align: middle;
   overflow: hidden;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.n {
+  font-weight: normal;
+  font-style: normal;
 }
 
 /**text-decoration  End**/
