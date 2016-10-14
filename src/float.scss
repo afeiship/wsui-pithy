@@ -19,9 +19,20 @@
     float: left;
   }
 }
+
 .rfix_ {
   @extend .clfix;
   & > * {
+    float: right;
+  }
+}
+
+.lrfix_{
+  @extend .clfix;
+  > *:first-child{
+    float: left;
+  }
+  > *:last-child{
     float: right;
   }
 }
