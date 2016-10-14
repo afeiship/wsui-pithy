@@ -1,2 +1,2 @@
-#webkit-css-modules
-> Webkit css modules.
+#webkit-css-base
+> Webkit css base.

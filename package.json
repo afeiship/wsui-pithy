@@ -1,7 +1,7 @@
 {
-  "name": "webkit-css-modules",
+  "name": "webkit-css-base",
   "version": "0.0.0",
-  "description": "Webkit css modules.",
+  "description": "Webkit css base.",
   "homepage": "https://github.com/afeiship/webkit-css-modules",
   "author": {
     "name": "afei",

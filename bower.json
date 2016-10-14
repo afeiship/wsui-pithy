@@ -1,9 +1,9 @@
 {
-  "name": "webkit-css-modules",
-  "description": "Webkit css modules.",
+  "name": "webkit-css-base",
+  "description": "Webkit css base.",
   "main": [
-    "dist/webkit-css-modules.scss",
-    "dist/webkit-css-modules.css"
+    "dist/webkit-css-base.scss",
+    "dist/webkit-css-base.css"
   ],
   "authors": [
     "afei"
@@ -12,7 +12,7 @@
   "keywords": [
     "next"
   ],
-  "homepage": "https://github.com/afeiship/webkit-css-modules",
+  "homepage": "https://github.com/afeiship/webkit-css-base",
   "moduleType": [
     "amd"
   ],
