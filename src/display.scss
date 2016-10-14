@@ -1,5 +1,4 @@
 /**display Start**/
-
 .db {
   &,
   &_ > * {
@@ -27,7 +26,9 @@
 }
 
 .dtbc {
-  display: table-cell;
+  &,
+  &_ > * {
+    display: table-cell;
+  }
 }
-
 /**display  End**/
