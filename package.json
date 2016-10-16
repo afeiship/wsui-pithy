@@ -1,8 +1,8 @@
 {
-  "name": "webkit-css-base",
+  "name": "webkit-cssui-short-name",
   "version": "0.0.0",
-  "description": "Webkit css base.",
-  "homepage": "https://github.com/afeiship/webkit-css-modules",
+  "description": "webkit-cssui-short-name",
+  "homepage": "https://github.com/afeiship/webkit-cssui-short-name",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"

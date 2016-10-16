@@ -1,9 +1,9 @@
 {
-  "name": "webkit-css-base",
-  "description": "Webkit css base.",
+  "name": "webkit-cssui-short-name",
+  "description": "Webkit css short name.",
   "main": [
-    "dist/webkit-css-base.scss",
-    "dist/webkit-css-base.css"
+    "dist/webkit-cssui-short-name.scss",
+    "dist/webkit-cssui-short-name.css"
   ],
   "authors": [
     "afei"

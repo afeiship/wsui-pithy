@@ -1,2 +1,2 @@
-#webkit-css-base
-> Webkit css base.
+#webkit-cssui-short-name
+> Webkit css short name.
