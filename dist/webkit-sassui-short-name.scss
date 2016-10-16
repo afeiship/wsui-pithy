@@ -86,7 +86,10 @@
 }
 
 .di {
-  display: inline;
+  &,
+  &_ > * {
+    display: inline;
+  }
 }
 
 .dn {
