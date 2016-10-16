@@ -1,9 +1,9 @@
 {
-  "name": "webkit-cssui-short-name",
-  "description": "Webkit css short name.",
+  "name": "webkit-sassui-short-name",
+  "description": "Webkit sass ui module short name.",
   "main": [
-    "dist/webkit-cssui-short-name.scss",
-    "dist/webkit-cssui-short-name.css"
+    "dist/webkit-sassui-short-name.scss",
+    "dist/webkit-sassui-short-name.css"
   ],
   "authors": [
     "afei"

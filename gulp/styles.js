@@ -12,7 +12,7 @@
   //styles
   gulp.task('styles', function() {
     return gulp.src('src/*.scss')
-      .pipe($.concat('webkit-cssui-short-name.scss'))
+      .pipe($.concat('webkit-sassui-short-name.scss'))
       .pipe(gulp.dest('dist'))
       .pipe($.sass(config.sassOptions.normal).on('error', $.sass.logError))
       .pipe(gulp.dest('dist'))
