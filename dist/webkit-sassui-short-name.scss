@@ -162,6 +162,10 @@
 }
 /*font-size End*/
 
+.h100{
+  height:100%;
+}
+
 /**margin Start**/
 .auto {
   margin-left: auto;
@@ -241,6 +245,36 @@
 
 .l0 {
   left: 0!important;
+}
+
+.lr0{
+  left:0;
+  right:0;
+}
+
+.tb0{
+  top:0;
+  bottom:0;
+}
+
+.lt0{
+  left:0;
+  top:0;
+}
+
+.rt0{
+  right:0;
+  top:0;
+}
+
+.lb0{
+  left:0;
+  bottom:0;
+}
+
+.rb0{
+  right:0;
+  bottom:0;
 }
 
 .trbl0 {
@@ -440,3 +474,7 @@
   visibility: hidden;
 }
 /**transparent  End**/
+
+.w100{
+  width:100%;
+}
