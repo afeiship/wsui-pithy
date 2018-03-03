@@ -1,6 +1,6 @@
 {
   "name": "webkit-sassui-short-name",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "webkit-sassui-short-name",
   "homepage": "https://github.com/afeiship/webkit-sassui-short-name",
   "author": {
@@ -8,6 +8,9 @@
     "email": "1290657123@qq.com"
   },
   "main":"dist/webkit-sassui-short-name.scss",
+  "scripts": {
+    "build":"gulp"
+  },
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

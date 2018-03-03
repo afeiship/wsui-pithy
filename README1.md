@@ -1,2 +1,2 @@
-#webkit-sassui-short-name
+# webkit-sassui-short-name
 > Webkit sass ui short name.
