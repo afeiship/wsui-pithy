@@ -14,21 +14,21 @@
 }
 
 .lfix_ {
-  @extend .clfix;
+  @extend .clearfix;
   & > * {
     float: left;
   }
 }
 
 .rfix_ {
-  @extend .clfix;
+  @extend .clearfix;
   & > * {
     float: right;
   }
 }
 
 .lrfix_{
-  @extend .clfix;
+  @extend .clearfix;
   > *:first-child{
     float: left;
   }

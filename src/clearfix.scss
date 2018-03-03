@@ -10,25 +10,14 @@
  *    `:before` to contain the top-margins of child elements.
  * 3. Reference:http://nicolasgallagher.com/micro-clearfix-hack/
  */
-.clfix:before,
-.clfix:after {
+.clearfix:before,
+.clearfix:after {
   content: " "; /* 1 */
   display: table; /* 2 */
 }
 
-.clfix:after {
-  clear: both;
-}
-
-
-/*normal way to clearfix*/
-//http://snipplr.com/view/43074/clearfix-using-zerowidthspace-character/
 .clearfix:after {
   clear: both;
-  content: "\200B";
-  display: block;
-  height: 0;
 }
-
 
 /**clearfix  End**/

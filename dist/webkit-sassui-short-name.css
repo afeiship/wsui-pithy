@@ -49,8 +49,8 @@
  *    `:before` to contain the top-margins of child elements.
  * 3. Reference:http://nicolasgallagher.com/micro-clearfix-hack/
  */
-.clfix:before, .lfix_:before, .rfix_:before, .lrfix_:before,
-.clfix:after,
+.clearfix:before, .lfix_:before, .rfix_:before, .lrfix_:before,
+.clearfix:after,
 .lfix_:after,
 .rfix_:after,
 .lrfix_:after {
@@ -60,16 +60,8 @@
   /* 2 */
 }
 
-.clfix:after, .lfix_:after, .rfix_:after, .lrfix_:after {
+.clearfix:after, .lfix_:after, .rfix_:after, .lrfix_:after {
   clear: both;
-}
-
-/*normal way to clearfix*/
-.clearfix:after {
-  clear: both;
-  content: "\200B";
-  display: block;
-  height: 0;
 }
 
 /**clearfix  End**/
