@@ -373,22 +373,22 @@
   border-radius: 1000px;
 }
 
-.radius-top-0 {
+.radius-t0 {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.radius-right-0 {
+.radius-r0 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.radius-bottom-0 {
+.radius-b0 {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.radius-left-0 {
+.radius-l0 {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
