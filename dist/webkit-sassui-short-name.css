@@ -431,6 +431,14 @@
   text-align: right;
 }
 
+.tlr_ > *:first-child {
+  text-align: left;
+}
+
+.tlr_ > *:last-child {
+  text-align: right;
+}
+
 .ell {
   white-space: nowrap;
   text-overflow: ellipsis;
