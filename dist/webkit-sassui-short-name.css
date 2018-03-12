@@ -235,24 +235,24 @@
   bottom: 0;
 }
 
-.lt0 {
-  left: 0;
-  top: 0;
-}
-
-.rt0 {
+.tr0 {
   right: 0;
   top: 0;
-}
-
-.lb0 {
-  left: 0;
-  bottom: 0;
 }
 
 .rb0 {
   right: 0;
   bottom: 0;
+}
+
+.bl0 {
+  left: 0;
+  bottom: 0;
+}
+
+.lt0 {
+  left: 0;
+  top: 0;
 }
 
 .trbl0 {
@@ -262,19 +262,32 @@
   left: 0;
 }
 
-.t5 {
+.lt5 {
+  left: 50%;
   top: 50%;
 }
 
-.r5 {
+.t375 {
+  top: 37.5%;
+}
+
+.t125 {
+  top: 12.5%;
+}
+
+.t50 {
+  top: 50%;
+}
+
+.r50 {
   right: 50%;
 }
 
-.b5 {
+.b50 {
   bottom: 50%;
 }
 
-.l5 {
+.l50 {
   left: 50%;
 }
 
