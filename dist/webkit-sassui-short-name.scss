@@ -293,6 +293,15 @@
   left: 0;
 }
 
+.p-top{
+  top:0;
+  @extend .lr0;
+}
+.p-bottom{
+  bottom:0;
+  @extend .lr0;
+}
+
 .lt5{
   left: 50%;
   top: 50%;
