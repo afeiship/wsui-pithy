@@ -188,8 +188,24 @@
   overflow: hidden;
 }
 
+.ovh-x {
+  overflow-x: hidden;
+}
+
+.ovh-y {
+  overflow-y: hidden;
+}
+
 .ovs {
   overflow: scroll;
+}
+
+.ovs-x {
+  overflow-x: scroll;
+}
+
+.ovs-y {
+  overflow-y: scroll;
 }
 
 .ova {
