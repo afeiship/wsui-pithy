@@ -80,6 +80,18 @@
 }
 /**clearfix  End**/
 
+.cd{
+  cursor: default;
+}
+
+.cp{
+  cursor: pointer;
+}
+
+.pn{
+  pointer-events: none;
+}
+
 /**display Start**/
 .db {
   &,
