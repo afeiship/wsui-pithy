@@ -7,9 +7,9 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "main":"dist/webkit-sassui-short-name.scss",
+  "main": "dist/webkit-sassui-short-name.scss",
   "scripts": {
-    "build":"gulp"
+    "build": "gulp"
   },
   "license": "MIT",
   "devDependencies": {

@@ -113,6 +113,10 @@
   display: table;
 }
 
+.dflex {
+  display: flex;
+}
+
 .dtbc,
 .dtbc_ > * {
   display: table-cell;
