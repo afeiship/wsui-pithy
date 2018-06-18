@@ -42,6 +42,11 @@
 }
 
 /**box-sizing  End**/
+.wh100 {
+  width: 100%;
+  height: 100%;
+}
+
 /**clearfix Start**/
 /**
  * http://nicolasgallagher.com/micro-clearfix-hack/
