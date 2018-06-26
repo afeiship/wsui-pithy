@@ -97,6 +97,18 @@
   pointer-events: none;
 }
 
+.cRed{
+  border:1px solid #f00;
+}
+
+.cGreen{
+  border:1px solid #0f0;
+}
+
+.cBlue{
+  border:1px solid #00f;
+}
+
 /**display Start**/
 .db {
   &,
