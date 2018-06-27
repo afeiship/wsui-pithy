@@ -529,6 +529,10 @@
   font-style: normal;
 }
 
+.usn {
+  user-select: none;
+}
+
 /**text-decoration  End**/
 /**transparent Start**/
 .tran-text {
