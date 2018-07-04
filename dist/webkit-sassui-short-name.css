@@ -305,13 +305,17 @@
   position: relative;
 }
 
+.abs,
+.abs_ > * {
+  position: absolute;
+}
+
 .fixed {
   position: fixed;
 }
 
-.abs,
-.abs_ > * {
-  position: absolute;
+.sticky {
+  position: sticky;
 }
 
 .t0 {

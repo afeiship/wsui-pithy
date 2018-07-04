@@ -311,15 +311,19 @@
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .abs {
   &,
   &_ > * {
     position: absolute;
   }
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .t0 {
