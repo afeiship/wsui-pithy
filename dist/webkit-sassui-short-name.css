@@ -236,10 +236,6 @@
   margin-bottom: 0;
 }
 
-.ml_ {
-  margin-left: -1px;
-}
-
 .mt_ {
   margin-bottom: -1px;
 }
@@ -250,6 +246,10 @@
 
 .mb_ {
   margin-bottom: -1px;
+}
+
+.ml_ {
+  margin-left: -1px;
 }
 
 /*margin End*/
