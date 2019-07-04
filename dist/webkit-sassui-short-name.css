@@ -70,7 +70,11 @@
   /* 2 */
 }
 
-.clearfix:after, .lfix_:after, .rfix_:after, .lrfix_:after {
+
+.clearfix:after,
+.lfix_:after,
+.rfix_:after,
+.lrfix_:after {
   clear: both;
 }
 
@@ -230,6 +234,22 @@
 
 .mb__ > *:last-child {
   margin-bottom: 0;
+}
+
+.ml_ {
+  margin-left: -1px;
+}
+
+.mt_ {
+  margin-bottom: -1px;
+}
+
+.mr_ {
+  margin-right: -1px;
+}
+
+.mb_ {
+  margin-bottom: -1px;
 }
 
 /*margin End*/

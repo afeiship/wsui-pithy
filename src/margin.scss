@@ -35,9 +35,8 @@
 .mb__ > *:last-child {
   margin-bottom: 0;
 }
-.ml_ {
-  margin-left: -1px;
-}
+
+// nagetive -1:
 .mt_ {
   margin-bottom: -1px;
 }
@@ -47,4 +46,8 @@
 .mb_ {
   margin-bottom: -1px;
 }
+.ml_ {
+  margin-left: -1px;
+}
+
 /*margin End*/

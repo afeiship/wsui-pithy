@@ -1,27 +1,11 @@
 {
   "name": "webkit-sassui-short-name",
   "description": "Webkit sass ui module short name.",
-  "main": [
-    "dist/webkit-sassui-short-name.scss",
-    "dist/webkit-sassui-short-name.css"
-  ],
-  "authors": [
-    "afei"
-  ],
+  "main": ["dist/webkit-sassui-short-name.scss", "dist/webkit-sassui-short-name.css"],
+  "authors": ["afei"],
   "license": "MIT",
-  "keywords": [
-    "next"
-  ],
+  "keywords": ["next"],
   "homepage": "https://github.com/afeiship/webkit-sassui-short-name",
-  "moduleType": [
-    "amd"
-  ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    "src"
-  ]
+  "moduleType": ["amd"],
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests", "src"]
 }
