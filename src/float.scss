@@ -27,12 +27,12 @@
   }
 }
 
-.lrfix_{
+.lrfix_ {
   @extend .clearfix;
-  > *:first-child{
+  > *:first-child {
     float: left;
   }
-  > *:last-child{
+  > *:last-child {
     float: right;
   }
 }

@@ -20,8 +20,7 @@
   clear: both;
 }
 
-
-.clfix{
+.clfix {
   &:after {
     clear: both;
     content: "\200B";

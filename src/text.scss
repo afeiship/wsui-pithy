@@ -1,11 +1,11 @@
 /**text-decoration Start**/
-.tdn{
+.tdn {
   text-decoration: none;
 }
-.tdu{
+.tdu {
   text-decoration: underline;
 }
-.tdlh{
+.tdlh {
   text-decoration: line-through;
 }
 
@@ -21,16 +21,16 @@
   text-align: right;
 }
 
-.tlr_{
-  > *:first-child{
+.tlr_ {
+  > *:first-child {
     text-align: left;
   }
-  > *:last-child{
+  > *:last-child {
     text-align: right;
   }
 }
 
-.nowrap{
+.nowrap {
   white-space: nowrap;
 }
 
@@ -41,15 +41,15 @@
   overflow: hidden;
 }
 
-.b{
+.b {
   font-weight: bold;
 }
 
-.n{
+.n {
   font-weight: normal;
   font-style: normal;
 }
-.usn{
+.usn {
   user-select: none;
 }
 /**text-decoration  End**/
