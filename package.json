@@ -1,6 +1,6 @@
 {
-  "name": "webkit-sassui-short-name",
-  "version": "1.0.1",
+  "name": "@feizheng/webkit-sassui-short-name",
+  "version": "1.1.0",
   "description": "webkit-sassui-short-name",
   "homepage": "https://github.com/afeiship/webkit-sassui-short-name",
   "author": {
@@ -13,13 +13,16 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@feizheng/rake-git": "^1.2.1",
     "del": "^2.2.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.2",
-    "rake-git": "github:afeiship/rake-git",
     "yargs": "^13.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
