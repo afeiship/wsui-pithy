@@ -5,3 +5,8 @@
 ```shell
 npm install -S @feizheng/webkit-sassui-short-name
 ```
+
+## update
+```shell
+npm update @feizheng/webkit-sassui-short-name
+```

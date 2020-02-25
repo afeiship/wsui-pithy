@@ -14,15 +14,18 @@
   "license": "MIT",
   "devDependencies": {
     "@feizheng/rake-git": "^1.2.1",
-    "del": "^2.2.1",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
-    "yargs": "^13.2.4"
+    "yargs": "^15.1.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@feizheng/gulp-pkg-header": "^1.0.2"
   }
 }
