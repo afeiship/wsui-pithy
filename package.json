@@ -1,13 +1,13 @@
 {
   "name": "@feizheng/webkit-sassui-short-name",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "webkit-sassui-short-name",
   "homepage": "https://github.com/afeiship/webkit-sassui-short-name",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "main": "dist/webkit-sassui-short-name.scss",
+  "main": "dist/index.scss",
   "scripts": {
     "build": "gulp"
   },
