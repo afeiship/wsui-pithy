@@ -2,8 +2,8 @@
  * name: @feizheng/webkit-sassui-short-name
  * description: webkit-sassui-short-name
  * url: https://github.com/afeiship/webkit-sassui-short-name
- * version: 1.2.1
- * date: 2020-02-25 20:44:30
+ * version: 1.2.2
+ * date: 2020-03-26 19:22:00
  * license: MIT
  */
 
@@ -609,6 +609,23 @@
   user-select: none;
 }
 /**text-decoration  End**/
+
+/** transform  End**/
+
+.tsy5 {
+  transform: translateY(-50%);
+}
+
+.tsx5 {
+  transform: translateX(-50%);
+}
+
+.tsxy5 {
+  transform: translate(-50%, -50%);
+}
+
+
+/** transform  End**/
 
 /**transparent Start**/
 .tran-text {
