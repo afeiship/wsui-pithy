@@ -4,6 +4,10 @@
   margin-right: auto;
 }
 
+.maa{
+  margin: auto;
+}
+
 .m0a {
   margin: 0 auto;
 }
@@ -23,30 +27,30 @@
 .ml0 {
   margin-left: 0 !important;
 }
-.mr__ > *:last-child {
+.mr_ > *:last-child {
   margin-right: 0;
 }
-.ml__ > *:first-child {
+.ml_ > *:first-child {
   margin-left: 0;
 }
-.mt__ > *:first-child {
+.mt_ > *:first-child {
   margin-top: 0;
 }
-.mb__ > *:last-child {
+.mb_ > *:last-child {
   margin-bottom: 0;
 }
 
 // nagetive -1:
-.mt_ {
+.mt__ {
   margin-bottom: -1px;
 }
-.mr_ {
+.mr__ {
   margin-right: -1px;
 }
-.mb_ {
+.mb__ {
   margin-bottom: -1px;
 }
-.ml_ {
+.ml__ {
   margin-left: -1px;
 }
 

@@ -13,14 +13,17 @@
   }
 }
 
-.dn {
-  display: none;
-}
-
 .dib {
   &,
   &_ > * {
     display: inline-block;
+  }
+}
+
+.dtbc {
+  &,
+  &_ > * {
+    display: table-cell;
   }
 }
 
@@ -32,10 +35,7 @@
   display: flex;
 }
 
-.dtbc {
-  &,
-  &_ > * {
-    display: table-cell;
-  }
+.dn {
+  display: none;
 }
 /**display  End**/
