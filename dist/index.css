@@ -2,8 +2,8 @@
  * name: @jswork/wsui-pithy
  * description: Short and pithy style toolkits.
  * homepage: https://github.com/afeiship/wsui-pithy
- * version: 1.0.2
- * date: 2020-11-18T00:47:56.878Z
+ * version: 1.0.3
+ * date: 2020-11-18T07:29:36.398Z
  * license: MIT
  */
 /*align Start*/
@@ -44,15 +44,16 @@
   box-sizing: content-box;
 }
 
-.bgdn {
-  border: none !important;
-  background: none !important;
-}
-
 /**box-sizing  End**/
+.square,
 .wh100 {
   width: 100%;
   height: 100%;
+}
+
+.bgdn {
+  border: none !important;
+  background: none !important;
 }
 
 /**clearfix Start**/
@@ -84,13 +85,6 @@
 .rfix_:after,
 .lrfix_:after {
   clear: both;
-}
-
-.clfix:after {
-  clear: both;
-  content: "\200B";
-  display: block;
-  height: 0;
 }
 
 /**clearfix  End**/
@@ -129,13 +123,14 @@
   display: inline;
 }
 
-.dn {
-  display: none;
-}
-
 .dib,
 .dib_ > * {
   display: inline-block;
+}
+
+.dtbc,
+.dtbc_ > * {
+  display: table-cell;
 }
 
 .dtb {
@@ -146,9 +141,8 @@
   display: flex;
 }
 
-.dtbc,
-.dtbc_ > * {
-  display: table-cell;
+.dn {
+  display: none;
 }
 
 /**display  End**/
@@ -182,7 +176,7 @@
 /**float  End**/
 /*font-size Start*/
 .f0 {
-  font-size: 0;
+  font-size: 0 !important;
 }
 
 /*font-size End*/
@@ -202,6 +196,10 @@
 .auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.maa {
+  margin: auto;
 }
 
 .m0a {
@@ -228,35 +226,35 @@
   margin-left: 0 !important;
 }
 
-.mr__ > *:last-child {
+.mr_ > *:last-child {
   margin-right: 0;
 }
 
-.ml__ > *:first-child {
+.ml_ > *:first-child {
   margin-left: 0;
 }
 
-.mt__ > *:first-child {
+.mt_ > *:first-child {
   margin-top: 0;
 }
 
-.mb__ > *:last-child {
+.mb_ > *:last-child {
   margin-bottom: 0;
 }
 
-.mt_ {
+.mt__ {
   margin-bottom: -1px;
 }
 
-.mr_ {
+.mr__ {
   margin-right: -1px;
 }
 
-.mb_ {
+.mb__ {
   margin-bottom: -1px;
 }
 
-.ml_ {
+.ml__ {
   margin-left: -1px;
 }
 
@@ -310,19 +308,19 @@
   padding-left: 0 !important;
 }
 
-.pr__ > *:last-child {
+.pr_ > *:last-child {
   padding-right: 0;
 }
 
-.pl__ > *:first-child {
+.pl_ > *:first-child {
   padding-left: 0;
 }
 
-.pt__ > *:first-child {
+.pt_ > *:first-child {
   padding-top: 0;
 }
 
-.pb__ > *:last-child {
+.pb_ > *:last-child {
   padding-bottom: 0;
 }
 
@@ -399,14 +397,6 @@
   left: 0;
 }
 
-.p-top {
-  top: 0;
-}
-
-.p-bottom {
-  bottom: 0;
-}
-
 .lt5 {
   left: 50%;
   top: 50%;
@@ -450,6 +440,14 @@
 
 .l100 {
   left: 100%;
+}
+
+.p-top {
+  top: 0;
+}
+
+.p-bottom {
+  bottom: 0;
 }
 
 /**position  End**/
@@ -509,6 +507,10 @@
 
 .round {
   border-radius: 1000px;
+}
+
+.rect {
+  border-radius: none !important;
 }
 
 .radius-t0 {
@@ -621,11 +623,11 @@
 
 /** transform  End**/
 /**transparent Start**/
-.tran-text {
+.opacity-text {
   color: transparent;
 }
 
-.tran-bg {
+.opacity-bg {
   background: transparent;
 }
 
