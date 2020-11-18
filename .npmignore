@@ -12,4 +12,5 @@ Rakefile
 server.js
 .prettierrc
 
+bin
 .release-it.json
