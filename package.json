@@ -1,8 +1,8 @@
 {
-  "name": "@jswork/wsui-pithy",
-  "version": "1.0.3",
+  "name": "@jswork/wsui-shorty",
+  "version": "1.0.0",
   "description": "Short and pithy style toolkits.",
-  "homepage": "https://github.com/afeiship/wsui-pithy",
+  "homepage": "https://github.com/afeiship/wsui-shorty",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
