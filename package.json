@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-pithy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Short and pithy style toolkits.",
   "homepage": "https://github.com/afeiship/wsui-pithy",
   "author": {
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "serve docs"
+    "start": "serve docs",
+    "release": "release-it"
   },
   "main": "dist/index.scss",
   "license": "MIT",
@@ -23,10 +24,20 @@
     "gulp-load-plugins": "^2.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "release-it": "^14.2.1"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "wsui",
+    "short",
+    "pithy",
+    "css",
+    "toolkit",
+    "scss",
+    "sass"
+  ]
 }
