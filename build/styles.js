@@ -15,6 +15,7 @@
       .pipe($.jswork.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe($.sass({ outputStyle: 'expanded' }).on('error', $.sass.logError))
+      .pipe($.rename('style.css'))
       .pipe(gulp.dest('dist'));
   });
 })();
