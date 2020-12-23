@@ -14,10 +14,10 @@ npm i @jswork/wsui-shorty
 ## usage
 ```scss
 // default to `scss`
-@import '~@jswork/wsui-shorty';
+@import '~@jswork/wsui-shorty/dist/index.scss';
 
 // or use `css`
-@import '~@jswork/wsui-shorty/dist/index.css";
+@import '~@jswork/wsui-shorty/dist/style.css";
 ```
 
 ## documentation
