@@ -28,10 +28,10 @@ gulp.task('styles:weapp', function () {
     .pipe($.replace(/> \*:last-child/g, '> view:last-child, > text:last-child'))
     .pipe($.replace(/&_ > \*/g, '&_ > view, &_ > text'))
     .pipe($.replace(/& > \*/g, '& > view, & > text'))
-    .pipe($.rename('weapp.index.scss'))
+    .pipe($.rename('index.weapp.scss'))
     .pipe(gulp.dest('dist'))
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
-    .pipe($.rename('weapp.style.css'))
+    .pipe($.rename('style.weapp.css'))
     .pipe(gulp.dest('dist'));
 });
 
