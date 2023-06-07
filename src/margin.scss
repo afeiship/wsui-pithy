@@ -1,10 +1,10 @@
-/**margin Start**/
+/** margin Start**/
 .auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.maa{
+.maa {
   margin: auto;
 }
 
@@ -27,17 +27,28 @@
 .ml0 {
   margin-left: 0 !important;
 }
-.mr_ > *:last-child {
-  margin-right: 0;
+
+.mr {
+  &_ > *:last-child {
+    margin-right: 0;
+  }
 }
-.ml_ > *:first-child {
-  margin-left: 0;
+.ml {
+  &_ > *:first-child {
+    margin-left: 0;
+  }
 }
-.mt_ > *:first-child {
-  margin-top: 0;
+
+.mt {
+  &_ > *:first-child {
+    margin-top: 0;
+  }
 }
-.mb_ > *:last-child {
-  margin-bottom: 0;
+
+.mb {
+  &_ > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // nagetive -1:

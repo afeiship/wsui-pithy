@@ -15,16 +15,25 @@
   padding-left: 0 !important;
 }
 
-.pr_ > *:last-child {
-  padding-right: 0;
+.pr {
+  &_ > *:last-child {
+    padding-right: 0;
+  }
 }
-.pl_ > *:first-child {
-  padding-left: 0;
+
+.pl {
+  &_ > *:first-child {
+    padding-left: 0;
+  }
 }
-.pt_ > *:first-child {
-  padding-top: 0;
+.pt {
+  &_ > *:first-child {
+    padding-top: 0;
+  }
 }
-.pb_ > *:last-child {
-  padding-bottom: 0;
+.pb {
+  &_ > *:last-child {
+    padding-bottom: 0;
+  }
 }
-/*padding End*/
+/* padding End*/
