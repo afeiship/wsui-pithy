@@ -9,4 +9,8 @@
 .hidden {
   display: none !important;
 }
+
+.unactive {
+  filter: grayscale(100%);
+}
 /** status  End **/
