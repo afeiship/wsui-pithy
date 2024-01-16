@@ -15,9 +15,14 @@ npm i @jswork/wsui-shorty
 ```scss
 // default to `scss`
 @import '~@jswork/wsui-shorty/dist/index.scss';
-
 // or use `css`
 @import '~@jswork/wsui-shorty/dist/style.css";
+
+// when tailwind
+@import '~@jswork/wsui-shorty/dist/tailwind.css";
+// OR use scss
+@import '~@jswork/wsui-shorty/dist/tailwind.scss";
+```
 ```
 
 ## documentation
@@ -60,4 +65,3 @@ Code released under [the MIT license](https://github.com/afeiship/wsui-shorty/bl
 
 [download-image]: https://img.shields.io/npm/dm/@jswork/wsui-shorty
 [download-url]: https://www.npmjs.com/package/@jswork/wsui-shorty
-

@@ -7,7 +7,7 @@ const $ = require('gulp-load-plugins')({
 });
 
 //styles
-gulp.task('styles:web', function () {
+gulp.task('styles:web', function() {
   return gulp
     .src('src/*.scss')
     .pipe($.concat('index.scss'))
@@ -18,7 +18,7 @@ gulp.task('styles:web', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('styles:weapp', function () {
+gulp.task('styles:weapp', function() {
   return gulp
     .src('src/*.scss')
     .pipe($.concat('index.scss'))
@@ -35,4 +35,16 @@ gulp.task('styles:weapp', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('styles', gulp.series(['styles:web', 'styles:weapp']));
+
+// for tailwind
+gulp.task('styles:tailwind', function() {
+  return gulp.src('src/*.scss')
+    .pipe($.concat('tailwind.scss'))
+    .pipe($.jswork.pkgHeader())
+    .pipe(gulp.dest('dist'))
+    .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
+    .pipe($.rename('tailwind.css'))
+    .pipe(gulp.dest('dist'));
+})
+
+gulp.task('styles', gulp.series(['styles:web', 'styles:weapp', 'styles:tailwind']));
