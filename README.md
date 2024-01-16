@@ -23,6 +23,21 @@ npm i @jswork/wsui-shorty
 // OR use scss
 @import '~@jswork/wsui-shorty/dist/tailwind.scss";
 ```
+
+## with tailwind
+> You can use `@jswork/wsui-shorty` with tailwind.
+> At first, you need install `sass`.
+
+```scss
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@jswork/wsui-shorty/dist/tailwind.css';
+
+body {
+    background: #eee;
+}
 ```
 
 ## documentation
