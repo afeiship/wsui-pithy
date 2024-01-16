@@ -25,8 +25,7 @@ npm i @jswork/wsui-shorty
 ```
 
 ## with tailwind
-> You can use `@jswork/wsui-shorty` with tailwind.
-> At first, you need install `sass`.
+> You can use `@jswork/wsui-shorty` with tailwind. At first, you need install `sass`.
 
 ```scss
 @tailwind base;
