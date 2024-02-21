@@ -9,7 +9,11 @@
   },
   "scripts": {
     "build": "gulp",
-    "release": "release-it"
+    "release": "release-it",
+    "prepare": "husky install",
+    "ts-check": "tsc --noEmit",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 100",
+    "pretty": "prettier --write src"
   },
   "main": "dist/index.scss",
   "license": "MIT",
@@ -17,7 +21,6 @@
     "@jswork/gulp-pkg-header": "^1.0.8",
     "autoprefixer": "^9.7.4",
     "del": "^5.1.0",
-    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.2",
@@ -25,23 +28,18 @@
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.1.4",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.63.0"
+    "sass": "^1.63.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [
-    "wsui",
-    "short",
-    "pithy",
-    "css",
-    "toolkit",
-    "scss",
-    "sass",
-    "tailwind"
-  ],
-  "dependencies": {
-    "prettier": "^3.2.5"
+  "keywords": ["wsui", "short", "pithy", "css", "toolkit", "scss", "sass", "tailwind"],
+  "lint-staged": {
+    "src/**/*.{scss,ts,tsx}": ["npm run pretty"],
+    "src/**/*.{ts,tsx}": ["npm run lint"]
   }
 }
