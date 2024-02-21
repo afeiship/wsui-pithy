@@ -37,6 +37,6 @@
   },
   "keywords": ["wsui", "short", "pithy", "css", "toolkit", "scss", "sass", "tailwind"],
   "lint-staged": {
-    "src/**/*.{scss}": ["npm run pretty"]
+    "src/**/*.{scss,css}": ["npm run pretty"]
   }
 }
