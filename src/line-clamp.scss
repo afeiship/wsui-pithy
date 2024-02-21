@@ -1,0 +1,16 @@
+$line-clamp-list:(1,2,3);
+
+%line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+@each $line-clamp in $line-clamp-list {
+  .lc-#{$line-clamp} {
+    @extend %line-clamp;
+    -webkit-line-clamp: $line-clamp;
+  }
+}
