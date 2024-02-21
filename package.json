@@ -40,5 +40,8 @@
     "scss",
     "sass",
     "tailwind"
-  ]
+  ],
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
