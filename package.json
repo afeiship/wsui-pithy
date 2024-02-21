@@ -11,8 +11,6 @@
     "build": "gulp",
     "release": "release-it",
     "prepare": "husky install",
-    "ts-check": "tsc --noEmit",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 100",
     "pretty": "prettier --write src"
   },
   "main": "dist/index.scss",
@@ -39,7 +37,6 @@
   },
   "keywords": ["wsui", "short", "pithy", "css", "toolkit", "scss", "sass", "tailwind"],
   "lint-staged": {
-    "src/**/*.{scss,ts,tsx}": ["npm run pretty"],
-    "src/**/*.{ts,tsx}": ["npm run lint"]
+    "src/**/*.{scss}": ["npm run pretty"]
   }
 }
